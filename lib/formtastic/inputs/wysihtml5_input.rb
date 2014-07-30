@@ -1,6 +1,6 @@
 module Formtastic
   module Inputs
-    class Wysihtml5Input < Formtastic::Inputs::TextInput
+    class Wysihtml5Input < ::TextInput
 
       COMMANDS_PRESET = {
         barebone: [ :bold, :italic, :link, :source ],
