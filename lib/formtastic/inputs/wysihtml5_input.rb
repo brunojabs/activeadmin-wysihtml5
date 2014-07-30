@@ -218,41 +218,6 @@ module Formtastic
                 </select>
               </div>
             </div>
-            <div data-tab="1" id="modal-image-upload">
-              <div class="asset-uploader"></div>
-            </div>
-            <div data-tab="1" id="modal-image-gallery">
-              <div class="assets-container">
-                <ul></ul>
-              </div>
-              <div class="optional-inputs">
-                <div class="input string">
-                  <label>#{I18n.t("wysihtml5.dialog.image.alt")}</label>
-                  <input type="text" name="alt" />
-                </div>
-                <div class="input string">
-                  <label>#{I18n.t("wysihtml5.dialog.image.title")}</label>
-                  <input type="text" name="title" />
-                </div>
-                <div class="input radio">
-                  <div class="asset_scale_selection">
-                    <label>#{I18n.t("wysihtml5.dialog.image.scale")}</label>
-                    <label class="option"><input value="full" type="radio" name="scale" checked="checked" /> 100%</label>
-                    <label class="option"><input value="three_quarters" type="radio" name="scale" /> 75%</label>
-                    <label class="option"><input value="half" type="radio" name="scale" /> 50%</label>
-                    <label class="option"><input value="one_quarter" type="radio" name="scale" /> 25%</label>
-                  </div>
-                </div>
-                <div class="input select">
-                  <label>#{I18n.t("wysihtml5.dialog.image.alignment")}</label>
-                  <select name="alignment">
-                    <option value="">default</option>
-                    <option value="wysiwyg-float-left">#{I18n.t("wysihtml5.dialog.image.left")}</option>
-                    <option value="wysiwyg-float-right">#{I18n.t("wysihtml5.dialog.image.right")}</option>
-                  </select>
-                </div>
-              </div>
-            </div>
           </div>
           <div class="modal-footer">
             <a data-modal="close" data-action="cancel" class="button">#{I18n.t("wysihtml5.dialog.cancel")}</a>
